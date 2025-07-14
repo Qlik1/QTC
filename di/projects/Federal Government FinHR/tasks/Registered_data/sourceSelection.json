@@ -1,0 +1,13 @@
+{
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "database": "{{task.registered_data-m8pc:HTGOVTDEMO$_$REGISTERED_DATA.database}}",
+      "name": "FINHR_COUNTRY_MAPPING",
+      "schema": "{{task.registered_data-m8pc:HTGOVTDEMO$_$REGISTERED_DATA.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$registered_data$REGISTERED_DATA_finhr_country_mapping"
+    }
+  ]
+}

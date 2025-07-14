@@ -1,0 +1,25 @@
+{
+  "sourceEntity": {
+    "datasetId": "fiscal_moicoi_sample_data-vtl4",
+    "name": "FISCAL_MOICOI_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "transform-u2zw"
+  },
+  "targetEntity": {
+    "datasetId": "finhr_country_mapping-m8pi",
+    "name": "FINHR_COUNTRY_MAPPING",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "transform-u2zw"
+  },
+  "columnRelationships": [
+    {
+      "sourceColumn": "COUNTRY_NAME_STANDARD",
+      "targetColumn": "COUNTRYNAME",
+      "sourceColumnId": "country name standard",
+      "targetColumnId": "countryname"
+    }
+  ],
+  "name": "FISCALMOICOISAMPLEDATA_FINHRCOUNTRYMAPPING",
+  "description": "",
+  "id": "fiscalmoicoisampledata_finhrcountrymapping-eudz"
+}

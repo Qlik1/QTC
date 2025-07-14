@@ -1,0 +1,37 @@
+{
+  "sourceConnection": "{{task.onboarding_landing-149a.sourceConnection}}",
+  "includePatterns": [],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "name": "EEOD_SAMPLE_DATA",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_eeod_sample_data"
+    },
+    {
+      "name": "FISCAL_AIM_SAMPLE_DATA",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_fiscal_aim_sample_data"
+    },
+    {
+      "name": "FISCAL_BUDGET_SAMPLE_DATA",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_fiscal_budget_sample_data"
+    },
+    {
+      "name": "FISCAL_MOICOI_SAMPLE_DATA",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_fiscal_moicoi_sample_data"
+    },
+    {
+      "name": "HCDC_SAMPLE_DATA",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+      "type": "TABLE",
+      "sourceTableId": "$replicate$dbo_hcdc_sample_data"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "includePatterns": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "storage-eudb",
+      "tablePattern": "%",
+      "schemaPattern": "%",
+      "type": "TABLE"
+    }
+  ],
+  "excludePatterns": [],
+  "explicitlySelected": [
+    {
+      "sourceProject": "{{ref(project.current.projectId)}}",
+      "sourceTask": "registered_data_storage-m8pd",
+      "name": "FINHR_COUNTRY_MAPPING",
+      "type": "NONE",
+      "sourceTableId": "finhr_country_mapping-m8pf"
+    }
+  ]
+}

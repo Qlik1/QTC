@@ -1,0 +1,16 @@
+{
+  "id": "fiscal_moicoi_sample_data",
+  "name": "FISCAL_MOICOI_SAMPLE_DATA",
+  "type": "LANDING",
+  "inputDatasets": [
+    {
+      "datasetId": "$replicate$dbo_fiscal_moicoi_sample_data",
+      "name": "FISCAL_MOICOI_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_landing-149a",
+      "schema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

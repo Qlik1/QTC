@@ -1,0 +1,408 @@
+{
+  "id": "hcdc_sample_data-u2zy",
+  "name": "HCDC_SAMPLE_DATA",
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDatasets": [
+    {
+      "datasetId": "hcdc_sample_data-u2zb",
+      "name": "HCDC_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-eudb"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "HCDC_SAMPLE_DATA",
+    "columns": [
+      {
+        "name": "RESPONSE_COUNT",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "BIGINT"
+        },
+        "id": "response count",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "PROGRAM_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "program name",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ELEMENT_AGENCY_SERVICE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "element_agency_service",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "EXPENDITURE_CENTER",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(32)"
+        },
+        "id": "expenditure center",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "BUDGET_CATEGORY",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(10)"
+        },
+        "id": "budget category",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "PERSONNEL_TYPE",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "personnel type",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "EMPLOYEE_TYPE",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(32)"
+        },
+        "id": "employee type",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "EMPLOYEE_ID_NUMBER_NO_SSNS",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "employee_id_number_no_ssns",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "GRADE_RANK",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "grade/rank",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "BIRTH_YEAR_YYYY",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "BIGINT"
+        },
+        "id": "birth_year_yyyy",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "TOTAL_YEARS_OF_FEDERAL_SERVICE",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "total years of federal service",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "SERVICE_COMPUTATION_DATE_MM_DD_YYYY",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "service_computation_date_mm_dd_yyyy",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FEDERAL_RETIREMENT_SYSTEM",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "federal retirement system",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "RETIREMENT_ELIGIBILITY_DATE_MM_DD_YYYY",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "BIGINT"
+        },
+        "id": "retirement_eligibility_date_mm_dd_yyyy",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "YEAR_OF_HIRE_AT_AGENCY",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "BIGINT"
+        },
+        "id": "year of hire at agency",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "WORK_ROLE_OCCUPATION_CAREER_SERVICE",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "work_role_occupation_career_service",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "REIMBURSABLE",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "reimbursable",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "HOME_AGENCY",
+        "ordinal": 18,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "home agency",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "HOST_AGENCY",
+        "ordinal": 19,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "host agency",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "COMMENTS",
+        "ordinal": 20,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(1)"
+        },
+        "id": "comments",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ELEMENT_AGENCY_OR_SERVICE",
+        "ordinal": 21,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "element_agency_or_service",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

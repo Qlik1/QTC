@@ -1,0 +1,85 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "KEEP",
+        "columnName": "PROGRAM_CODE",
+        "newColumnName": "PROGRAM_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "VALUE_TYPE",
+        "newColumnName": "VALUE_TYPE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "LOE_CODE",
+        "newColumnName": "LOE_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "RIC_CODE",
+        "newColumnName": "RIC_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "SUBPROJECT_CODE",
+        "newColumnName": "SUBPROJECT_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "AIM_PROGRAM_NAME",
+        "newColumnName": "AIM_PROGRAM_NAME",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "ID",
+        "newColumnName": "ID",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "fiscal_aim_sample_data-u2y-",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "FISCAL_AIM_SAMPLE_DATA",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "FISCAL_AIM_SAMPLE_DATA",
+  "id": "fiscal_aim_sample_data-qusz",
+  "description": ""
+}

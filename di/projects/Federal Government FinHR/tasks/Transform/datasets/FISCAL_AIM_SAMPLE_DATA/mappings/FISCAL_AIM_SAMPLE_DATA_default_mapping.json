@@ -1,0 +1,253 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "fiscal_aim_sample_data-u2y-",
+    "name": "FISCAL_AIM_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage-eudb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "program code",
+      "expression": {
+        "expressionStatement": "${PROGRAM_CODE}",
+        "alias": [
+          {
+            "name": "PROGRAM_CODE",
+            "value": "PROGRAM_CODE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "value type",
+      "expression": {
+        "expressionStatement": "${VALUE_TYPE}",
+        "alias": [
+          {
+            "name": "VALUE_TYPE",
+            "value": "VALUE_TYPE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "loe code",
+      "expression": {
+        "expressionStatement": "${LOE_CODE}",
+        "alias": [
+          {
+            "name": "LOE_CODE",
+            "value": "LOE_CODE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "aim program name",
+      "expression": {
+        "expressionStatement": "${AIM_PROGRAM_NAME}",
+        "alias": [
+          {
+            "name": "AIM_PROGRAM_NAME",
+            "value": "AIM_PROGRAM_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "subproject code",
+      "expression": {
+        "expressionStatement": "${SUBPROJECT_CODE}",
+        "alias": [
+          {
+            "name": "SUBPROJECT_CODE",
+            "value": "SUBPROJECT_CODE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "ric code",
+      "expression": {
+        "expressionStatement": "${RIC_CODE}",
+        "alias": [
+          {
+            "name": "RIC_CODE",
+            "value": "RIC_CODE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy1",
+      "expression": {
+        "expressionStatement": "${FY1}",
+        "alias": [
+          {
+            "name": "FY1",
+            "value": "FY1"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2",
+      "expression": {
+        "expressionStatement": "${FY2}",
+        "alias": [
+          {
+            "name": "FY2",
+            "value": "FY2"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy3",
+      "expression": {
+        "expressionStatement": "${FY3}",
+        "alias": [
+          {
+            "name": "FY3",
+            "value": "FY3"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy4",
+      "expression": {
+        "expressionStatement": "${FY4}",
+        "alias": [
+          {
+            "name": "FY4",
+            "value": "FY4"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy5",
+      "expression": {
+        "expressionStatement": "${FY5}",
+        "alias": [
+          {
+            "name": "FY5",
+            "value": "FY5"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy6",
+      "expression": {
+        "expressionStatement": "${FY6}",
+        "alias": [
+          {
+            "name": "FY6",
+            "value": "FY6"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy7",
+      "expression": {
+        "expressionStatement": "${FY7}",
+        "alias": [
+          {
+            "name": "FY7",
+            "value": "FY7"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "aim activity description",
+      "expression": {
+        "expressionStatement": "${AIM_ACTIVITY_DESCRIPTION}",
+        "alias": [
+          {
+            "name": "AIM_ACTIVITY_DESCRIPTION",
+            "value": "AIM_ACTIVITY_DESCRIPTION"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "scope of impact",
+      "expression": {
+        "expressionStatement": "${SCOPE_OF_IMPACT}",
+        "alias": [
+          {
+            "name": "SCOPE_OF_IMPACT",
+            "value": "SCOPE_OF_IMPACT"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "ic process focus",
+      "expression": {
+        "expressionStatement": "${IC_PROCESS_FOCUS}",
+        "alias": [
+          {
+            "name": "IC_PROCESS_FOCUS",
+            "value": "IC_PROCESS_FOCUS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "trl category",
+      "expression": {
+        "expressionStatement": "${TRL_CATEGORY}",
+        "alias": [
+          {
+            "name": "TRL_CATEGORY",
+            "value": "TRL_CATEGORY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "aim contribution",
+      "expression": {
+        "expressionStatement": "${AIM_CONTRIBUTION}",
+        "alias": [
+          {
+            "name": "AIM_CONTRIBUTION",
+            "value": "AIM_CONTRIBUTION"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "poc information",
+      "expression": {
+        "expressionStatement": "${POC_INFORMATION}",
+        "alias": [
+          {
+            "name": "POC_INFORMATION",
+            "value": "POC_INFORMATION"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "id",
+      "expression": {
+        "expressionStatement": "${ID}",
+        "alias": [
+          {
+            "name": "ID",
+            "value": "ID"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "fiscal_aim_sample_data_default_mapping-oxpm",
+  "name": "FISCAL_AIM_SAMPLE_DATA_default_mapping",
+  "description": ""
+}

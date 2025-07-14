@@ -1,0 +1,169 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "fiscal_budget_sample_data-u2y_",
+    "name": "FISCAL_BUDGET_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage-eudb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "program name",
+      "expression": {
+        "expressionStatement": "${PROGRAM_NAME}",
+        "alias": [
+          {
+            "name": "PROGRAM_NAME",
+            "value": "PROGRAM_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "funding category code",
+      "expression": {
+        "expressionStatement": "${FUNDING_CATEGORY_CODE}",
+        "alias": [
+          {
+            "name": "FUNDING_CATEGORY_CODE",
+            "value": "FUNDING_CATEGORY_CODE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "ec name",
+      "expression": {
+        "expressionStatement": "${EC_NAME}",
+        "alias": [
+          {
+            "name": "EC_NAME",
+            "value": "EC_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "project name",
+      "expression": {
+        "expressionStatement": "${PROJECT_NAME}",
+        "alias": [
+          {
+            "name": "PROJECT_NAME",
+            "value": "PROJECT_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "sub-project id",
+      "expression": {
+        "expressionStatement": "${SUB_PROJECT_ID}",
+        "alias": [
+          {
+            "name": "SUB_PROJECT_ID",
+            "value": "SUB_PROJECT_ID"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2020",
+      "expression": {
+        "expressionStatement": "${FY2020}",
+        "alias": [
+          {
+            "name": "FY2020",
+            "value": "FY2020"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2021",
+      "expression": {
+        "expressionStatement": "${FY2021}",
+        "alias": [
+          {
+            "name": "FY2021",
+            "value": "FY2021"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2022",
+      "expression": {
+        "expressionStatement": "${FY2022}",
+        "alias": [
+          {
+            "name": "FY2022",
+            "value": "FY2022"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2023",
+      "expression": {
+        "expressionStatement": "${FY2023}",
+        "alias": [
+          {
+            "name": "FY2023",
+            "value": "FY2023"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2024",
+      "expression": {
+        "expressionStatement": "${FY2024}",
+        "alias": [
+          {
+            "name": "FY2024",
+            "value": "FY2024"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2025",
+      "expression": {
+        "expressionStatement": "${FY2025}",
+        "alias": [
+          {
+            "name": "FY2025",
+            "value": "FY2025"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy2026",
+      "expression": {
+        "expressionStatement": "${FY2026}",
+        "alias": [
+          {
+            "name": "FY2026",
+            "value": "FY2026"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "tot_fy2022_fy2026",
+      "expression": {
+        "expressionStatement": "${TOT_FY2022_FY2026}",
+        "alias": [
+          {
+            "name": "TOT_FY2022_FY2026",
+            "value": "TOT_FY2022_FY2026"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "fiscal_budget_sample_data_default_mapping-quso",
+  "name": "FISCAL_BUDGET_SAMPLE_DATA_default_mapping",
+  "description": ""
+}

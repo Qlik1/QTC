@@ -1,0 +1,208 @@
+{
+  "id": "$replicate$dbo_fiscal_budget_sample_data",
+  "name": "dbo_FISCAL_BUDGET_SAMPLE_DATA",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "FISCAL_BUDGET_SAMPLE_DATA",
+    "dbSchema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+    "columns": [
+      {
+        "name": "Program Name",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "program name",
+        "flags": "NONE"
+      },
+      {
+        "name": "Funding Category Code",
+        "ordinal": 2,
+        "nullable": false,
+        "primaryKeyOrdinal": 2,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "funding category code",
+        "flags": "NONE"
+      },
+      {
+        "name": "EC Name",
+        "ordinal": 3,
+        "nullable": false,
+        "primaryKeyOrdinal": 3,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "ec name",
+        "flags": "NONE"
+      },
+      {
+        "name": "Project Name",
+        "ordinal": 4,
+        "nullable": false,
+        "primaryKeyOrdinal": 4,
+        "datatype": {
+          "type": "STRING",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "project name",
+        "flags": "NONE"
+      },
+      {
+        "name": "Sub-Project ID",
+        "ordinal": 5,
+        "nullable": false,
+        "primaryKeyOrdinal": 5,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "sub-project id",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2020",
+        "ordinal": 6,
+        "nullable": false,
+        "primaryKeyOrdinal": 6,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2020",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2021",
+        "ordinal": 7,
+        "nullable": false,
+        "primaryKeyOrdinal": 7,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2021",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2022",
+        "ordinal": 8,
+        "nullable": false,
+        "primaryKeyOrdinal": 8,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2022",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2023",
+        "ordinal": 9,
+        "nullable": false,
+        "primaryKeyOrdinal": 9,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2023",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2024",
+        "ordinal": 10,
+        "nullable": false,
+        "primaryKeyOrdinal": 10,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2024",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2025",
+        "ordinal": 11,
+        "nullable": false,
+        "primaryKeyOrdinal": 11,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2025",
+        "flags": "NONE"
+      },
+      {
+        "name": "FY2026",
+        "ordinal": 12,
+        "nullable": false,
+        "primaryKeyOrdinal": 12,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "fy2026",
+        "flags": "NONE"
+      },
+      {
+        "name": "TOT_FY2022_FY2026",
+        "ordinal": 13,
+        "nullable": false,
+        "primaryKeyOrdinal": 13,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "tot_fy2022_fy2026",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

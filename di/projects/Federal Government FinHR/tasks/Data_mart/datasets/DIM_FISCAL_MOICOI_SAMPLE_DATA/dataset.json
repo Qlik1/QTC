@@ -1,0 +1,491 @@
+{
+  "id": "dim_fiscal_moicoi_sample_data-cwbn",
+  "name": "DIM_FISCAL_MOICOI_SAMPLE_DATA",
+  "type": "DIMENSION",
+  "inputDatasets": [
+    {
+      "datasetId": "fiscal_moicoi_sample_data-vtl4",
+      "name": "FISCAL_MOICOI_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "transform-u2zw"
+    },
+    {
+      "datasetId": "finhr_country_mapping-m8pi",
+      "name": "FINHR_COUNTRY_MAPPING",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "transform-u2zw"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "DIM_FISCAL_MOICOI_SAMPLE_DATA",
+    "columns": [
+      {
+        "name": "COUNTRY_NAME_STANDARD",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "country name standard",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "MISSION_NAME",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(64)"
+        },
+        "id": "mission name",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "PROGRAM_NAME",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "program name",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ACTUALS",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "actuals",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ENACTED",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "enacted",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "REQUESTED",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "requested",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY4",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "fy4",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY5",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "fy5",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY6",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "fy6",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY7",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "fy7",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "PHONE",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "phone",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "DATE",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "date",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ID",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(6)"
+        },
+        "id": "id",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "MAPCOUNTRY",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16777216,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(16777216)"
+        },
+        "id": "fiscalmoicoisampledata_finhrcountrymapping-eudz$_$mapcountry",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "entityId": "",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "dimensionDatasetSettings": {
+    "type": "TYPE2",
+    "rootDataEntityId": {
+      "type": "NONE",
+      "entityId": "fiscal_moicoi_sample_data-vtl4",
+      "name": "FISCAL_MOICOI_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "dataAppId": "transform-u2zw"
+    },
+    "entityRelationshipPath": [
+      "fiscalmoicoisampledata_finhrcountrymapping-eudz"
+    ],
+    "mapping": {
+      "columns": [
+        {
+          "columnName": "COUNTRY_NAME_STANDARD",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${COUNTRY_NAME_STANDARD}",
+            "alias": [
+              {
+                "name": "COUNTRY_NAME_STANDARD",
+                "value": "COUNTRY_NAME_STANDARD"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "MISSION_NAME",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${MISSION_NAME}",
+            "alias": [
+              {
+                "name": "MISSION_NAME",
+                "value": "MISSION_NAME"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "PROGRAM_NAME",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${PROGRAM_NAME}",
+            "alias": [
+              {
+                "name": "PROGRAM_NAME",
+                "value": "PROGRAM_NAME"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ACTUALS",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${ACTUALS}",
+            "alias": [
+              {
+                "name": "ACTUALS",
+                "value": "ACTUALS"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ENACTED",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${ENACTED}",
+            "alias": [
+              {
+                "name": "ENACTED",
+                "value": "ENACTED"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "REQUESTED",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${REQUESTED}",
+            "alias": [
+              {
+                "name": "REQUESTED",
+                "value": "REQUESTED"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY4",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY4}",
+            "alias": [
+              {
+                "name": "FY4",
+                "value": "FY4"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY5",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY5}",
+            "alias": [
+              {
+                "name": "FY5",
+                "value": "FY5"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY6",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY6}",
+            "alias": [
+              {
+                "name": "FY6",
+                "value": "FY6"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY7",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY7}",
+            "alias": [
+              {
+                "name": "FY7",
+                "value": "FY7"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "PHONE",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${PHONE}",
+            "alias": [
+              {
+                "name": "PHONE",
+                "value": "PHONE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "DATE",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${DATE}",
+            "alias": [
+              {
+                "name": "DATE",
+                "value": "DATE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ID",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${ID}",
+            "alias": [
+              {
+                "name": "ID",
+                "value": "ID"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "MAPCOUNTRY",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${MAPCOUNTRY}",
+            "alias": [
+              {
+                "name": "MAPCOUNTRY",
+                "value": "fiscalmoicoisampledata_finhrcountrymapping-eudz$_$MAPCOUNTRY"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "fullyType2Sources": false,
+    "subtype": "MODEL_BASED"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

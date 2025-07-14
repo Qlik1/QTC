@@ -1,0 +1,23 @@
+{
+  "id": "hcdc_sample_data-u2zb",
+  "name": "HCDC_SAMPLE_DATA",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "hcdc_sample_data",
+      "name": "HCDC_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_landing-149a"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

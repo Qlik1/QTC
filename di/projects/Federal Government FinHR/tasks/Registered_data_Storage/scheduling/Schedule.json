@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "schedulingType": "TIME_BASED",
+  "timeBasedScheduling": {
+    "schedule": [
+      "RRULE:FREQ=MINUTELY;INTERVAL=15;BYSECOND=0"
+    ],
+    "startDateTime": "2025-04-18T02:45:58.769Z",
+    "timezone": "Etc/UTC"
+  },
+  "eventBasedScheduling": {
+    "eventSchedulingType": "ANY_INPUT_TASK",
+    "triggerApps": []
+  },
+  "id": "schedule-m8pe",
+  "name": "Schedule",
+  "description": "",
+  "version": "1"
+}

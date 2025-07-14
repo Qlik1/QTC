@@ -1,0 +1,33 @@
+{
+  "id": "fiscal_moicoi_joined-cuwi",
+  "name": "FISCAL_MOICOI_Joined",
+  "type": "DATAFLOW",
+  "inputDatasets": [
+    {
+      "datasetId": "fiscal_moicoi_sample_data-u2za",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-eudb"
+    },
+    {
+      "datasetId": "fiscal_aim_sample_data-u2y-",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-eudb"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "dataflowDatasetSettings": {
+    "dataflowId": "{{id(dataflow, FISCAL_MOICOI_Joined)}}",
+    "targetId": "9e663ead-9c57-45d5-9b4b-4f93ee8eb895",
+    "dataflowTargetState": "VALID",
+    "incremental": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,265 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "hcdc_sample_data-u2zb",
+    "name": "HCDC_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage-eudb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "response count",
+      "expression": {
+        "expressionStatement": "${RESPONSE_COUNT}",
+        "alias": [
+          {
+            "name": "RESPONSE_COUNT",
+            "value": "RESPONSE_COUNT"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "program name",
+      "expression": {
+        "expressionStatement": "${PROGRAM_NAME}",
+        "alias": [
+          {
+            "name": "PROGRAM_NAME",
+            "value": "PROGRAM_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "element_agency_service",
+      "expression": {
+        "expressionStatement": "${ELEMENT_AGENCY_SERVICE}",
+        "alias": [
+          {
+            "name": "ELEMENT_AGENCY_SERVICE",
+            "value": "ELEMENT_AGENCY_SERVICE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "expenditure center",
+      "expression": {
+        "expressionStatement": "${EXPENDITURE_CENTER}",
+        "alias": [
+          {
+            "name": "EXPENDITURE_CENTER",
+            "value": "EXPENDITURE_CENTER"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "budget category",
+      "expression": {
+        "expressionStatement": "${BUDGET_CATEGORY}",
+        "alias": [
+          {
+            "name": "BUDGET_CATEGORY",
+            "value": "BUDGET_CATEGORY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "personnel type",
+      "expression": {
+        "expressionStatement": "${PERSONNEL_TYPE}",
+        "alias": [
+          {
+            "name": "PERSONNEL_TYPE",
+            "value": "PERSONNEL_TYPE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "employee type",
+      "expression": {
+        "expressionStatement": "${EMPLOYEE_TYPE}",
+        "alias": [
+          {
+            "name": "EMPLOYEE_TYPE",
+            "value": "EMPLOYEE_TYPE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "employee_id_number_no_ssns",
+      "expression": {
+        "expressionStatement": "${EMPLOYEE_ID_NUMBER_NO_SSNS}",
+        "alias": [
+          {
+            "name": "EMPLOYEE_ID_NUMBER_NO_SSNS",
+            "value": "EMPLOYEE_ID_NUMBER_NO_SSNS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "grade/rank",
+      "expression": {
+        "expressionStatement": "${GRADE_RANK}",
+        "alias": [
+          {
+            "name": "GRADE_RANK",
+            "value": "GRADE_RANK"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "birth_year_yyyy",
+      "expression": {
+        "expressionStatement": "${BIRTH_YEAR_YYYY}",
+        "alias": [
+          {
+            "name": "BIRTH_YEAR_YYYY",
+            "value": "BIRTH_YEAR_YYYY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "total years of federal service",
+      "expression": {
+        "expressionStatement": "${TOTAL_YEARS_OF_FEDERAL_SERVICE}",
+        "alias": [
+          {
+            "name": "TOTAL_YEARS_OF_FEDERAL_SERVICE",
+            "value": "TOTAL_YEARS_OF_FEDERAL_SERVICE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "service_computation_date_mm_dd_yyyy",
+      "expression": {
+        "expressionStatement": "${SERVICE_COMPUTATION_DATE_MM_DD_YYYY}",
+        "alias": [
+          {
+            "name": "SERVICE_COMPUTATION_DATE_MM_DD_YYYY",
+            "value": "SERVICE_COMPUTATION_DATE_MM_DD_YYYY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "federal retirement system",
+      "expression": {
+        "expressionStatement": "${FEDERAL_RETIREMENT_SYSTEM}",
+        "alias": [
+          {
+            "name": "FEDERAL_RETIREMENT_SYSTEM",
+            "value": "FEDERAL_RETIREMENT_SYSTEM"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "retirement_eligibility_date_mm_dd_yyyy",
+      "expression": {
+        "expressionStatement": "${RETIREMENT_ELIGIBILITY_DATE_MM_DD_YYYY}",
+        "alias": [
+          {
+            "name": "RETIREMENT_ELIGIBILITY_DATE_MM_DD_YYYY",
+            "value": "RETIREMENT_ELIGIBILITY_DATE_MM_DD_YYYY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "year of hire at agency",
+      "expression": {
+        "expressionStatement": "${YEAR_OF_HIRE_AT_AGENCY}",
+        "alias": [
+          {
+            "name": "YEAR_OF_HIRE_AT_AGENCY",
+            "value": "YEAR_OF_HIRE_AT_AGENCY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "work_role_occupation_career_service",
+      "expression": {
+        "expressionStatement": "${WORK_ROLE_OCCUPATION_CAREER_SERVICE}",
+        "alias": [
+          {
+            "name": "WORK_ROLE_OCCUPATION_CAREER_SERVICE",
+            "value": "WORK_ROLE_OCCUPATION_CAREER_SERVICE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "reimbursable",
+      "expression": {
+        "expressionStatement": "${REIMBURSABLE}",
+        "alias": [
+          {
+            "name": "REIMBURSABLE",
+            "value": "REIMBURSABLE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "home agency",
+      "expression": {
+        "expressionStatement": "${HOME_AGENCY}",
+        "alias": [
+          {
+            "name": "HOME_AGENCY",
+            "value": "HOME_AGENCY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "host agency",
+      "expression": {
+        "expressionStatement": "${HOST_AGENCY}",
+        "alias": [
+          {
+            "name": "HOST_AGENCY",
+            "value": "HOST_AGENCY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "comments",
+      "expression": {
+        "expressionStatement": "${COMMENTS}",
+        "alias": [
+          {
+            "name": "COMMENTS",
+            "value": "COMMENTS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "element_agency_or_service",
+      "expression": {
+        "expressionStatement": "${ELEMENT_AGENCY_OR_SERVICE}",
+        "alias": [
+          {
+            "name": "ELEMENT_AGENCY_OR_SERVICE",
+            "value": "ELEMENT_AGENCY_OR_SERVICE"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "hcdc_sample_data_default_mapping-u2zz",
+  "name": "HCDC_SAMPLE_DATA_default_mapping",
+  "description": ""
+}

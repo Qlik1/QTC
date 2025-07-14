@@ -1,0 +1,23 @@
+{
+  "id": "fiscal_aim_sample_data-u2y-",
+  "name": "FISCAL_AIM_SAMPLE_DATA",
+  "type": "STORAGE",
+  "inputDatasets": [
+    {
+      "datasetId": "fiscal_aim_sample_data",
+      "name": "FISCAL_AIM_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "onboarding_landing-149a"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,68 @@
+{
+  "id": "finhr_country_mapping-m8pi",
+  "name": "FINHR_COUNTRY_MAPPING",
+  "type": "TRANSFORM_MODEL_BASED",
+  "inputDatasets": [
+    {
+      "datasetId": "finhr_country_mapping-m8pf",
+      "name": "FINHR_COUNTRY_MAPPING",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data_storage-m8pd"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "OFF",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "FINHR_COUNTRY_MAPPING",
+    "columns": [
+      {
+        "name": "COUNTRYNAME",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 16777216,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(16777216)"
+        },
+        "id": "countryname",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "MAPCOUNTRY",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16777216,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(16777216)"
+        },
+        "id": "mapcountry",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,17 @@
+{
+  "id": "finhr_country_mapping",
+  "name": "FINHR_COUNTRY_MAPPING",
+  "type": "EXTERNAL_TABLE",
+  "inputDatasets": [
+    {
+      "datasetId": "$registered_data$REGISTERED_DATA_finhr_country_mapping",
+      "name": "FINHR_COUNTRY_MAPPING",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "registered_data-m8pc",
+      "schema": "{{task.registered_data-m8pc:HTGOVTDEMO$_$REGISTERED_DATA.schema}}",
+      "database": "{{task.registered_data-m8pc:HTGOVTDEMO$_$REGISTERED_DATA.database}}"
+    }
+  ],
+  "virtualDataset": false,
+  "description": ""
+}

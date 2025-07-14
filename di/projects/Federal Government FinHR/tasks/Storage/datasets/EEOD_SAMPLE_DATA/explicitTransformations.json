@@ -1,0 +1,294 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "ADD",
+        "columnName": "RANK",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "case \nwhen ${GS_GG_08} = \u00271\u0027 then \u0027GS08\u0027\nwhen ${GS_GG_09} = \u00271\u0027 then \u0027GS09\u0027\nwhen ${GS_GG_10} = \u00271\u0027 then \u0027GS10\u0027\nwhen ${GS_GG_11} = \u00271\u0027 then \u0027GS11\u0027\nwhen ${GS_GG_12} = \u00271\u0027 then \u0027GS12\u0027\nwhen ${GS_GG_13} = \u00271\u0027 then \u0027GS13\u0027\nwhen ${GS_GG_14} = \u00271\u0027 then \u0027GS14\u0027\nwhen ${GS_GG_15} = 1 then \u0027GS15\u0027\nwhen ${SENIOR_PAY_LEVELS} = 1 then \u0027SRPL\u0027\nelse \u0027UNKN\u0027 end",
+          "alias": [
+            {
+              "name": "GS_GG_08",
+              "value": "gs/gg-08"
+            },
+            {
+              "name": "GS_GG_09",
+              "value": "gs/gg-09"
+            },
+            {
+              "name": "GS_GG_10",
+              "value": "gs/gg-10"
+            },
+            {
+              "name": "GS_GG_11",
+              "value": "gs/gg-11"
+            },
+            {
+              "name": "GS_GG_12",
+              "value": "gs/gg-12"
+            },
+            {
+              "name": "GS_GG_13",
+              "value": "gs/gg-13"
+            },
+            {
+              "name": "GS_GG_14",
+              "value": "gs/gg-14"
+            },
+            {
+              "name": "GS_GG_15",
+              "value": "gs/gg-15"
+            },
+            {
+              "name": "SENIOR_PAY_LEVELS",
+              "value": "senior pay levels"
+            }
+          ]
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "addedColumnId": "cf088447-a794-4993-bdeb-9dc2d2e4cc05",
+        "markAsMetadata": false
+      },
+      {
+        "action": "ADD",
+        "columnName": "RACE",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "case when ${AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE} = 1 or ${AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE} = 1 then \u0027AIAN\u0027\nwhen ${ASIAN_FEMALE} = 1 or ${ASIAN_MALE} = 1 then \u0027ASIAN\u0027\nwhen ${BLACK_OR_AFRICAN_AMERICAN_FEMALE} = 1 or ${BLACK_OR_AFRICAN_AMERICAN_MALE} = 1 then \u0027BLAA\u0027\nwhen ${HISPANIC_OR_LATINO_FEMALE} = 1 or ${HISPANIC_OR_LATINO_MALE} = 1 then \u0027HISPANIC\u0027\nwhen ${NATIVE_HAWAIIAN__OTHER_PI_FEMALE} = \u00271\u0027 or ${NATIVE_HAWAIIAN__OTHER_PI_MALE} = \u00271\u0027 then \u0027NHOPI\u0027\nwhen ${NO_RNO_FEMALE} = 1 or ${NO_RNO_MALE} = 1 then \u0027NORNO\u0027\nwhen ${TWO_OR_MORE_RACES_FEMALE} = 1 or ${TWO_OR_MORE_RACES_MALE} = 1 then \u0027TWOORMORE\u0027\nwhen ${WHITE_FEMALE} = 1 or ${WHITE_MALE} = 1 then \u0027WHITE\u0027\nelse \u0027UNKNOWN\u0027 end",
+          "alias": [
+            {
+              "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE",
+              "value": "american indian or alaska native female"
+            },
+            {
+              "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE",
+              "value": "american indian or alaska native male"
+            },
+            {
+              "name": "ASIAN_FEMALE",
+              "value": "asian female"
+            },
+            {
+              "name": "ASIAN_MALE",
+              "value": "asian male"
+            },
+            {
+              "name": "BLACK_OR_AFRICAN_AMERICAN_FEMALE",
+              "value": "black or african american female"
+            },
+            {
+              "name": "BLACK_OR_AFRICAN_AMERICAN_MALE",
+              "value": "black or african american male"
+            },
+            {
+              "name": "HISPANIC_OR_LATINO_FEMALE",
+              "value": "hispanic or latino female"
+            },
+            {
+              "name": "HISPANIC_OR_LATINO_MALE",
+              "value": "hispanic or latino male"
+            },
+            {
+              "name": "NATIVE_HAWAIIAN__OTHER_PI_FEMALE",
+              "value": "native hawaiian/ other pi female"
+            },
+            {
+              "name": "NATIVE_HAWAIIAN__OTHER_PI_MALE",
+              "value": "native hawaiian/ other pi male"
+            },
+            {
+              "name": "NO_RNO_FEMALE",
+              "value": "no rno female"
+            },
+            {
+              "name": "NO_RNO_MALE",
+              "value": "no rno male"
+            },
+            {
+              "name": "TWO_OR_MORE_RACES_FEMALE",
+              "value": "two or more races female"
+            },
+            {
+              "name": "TWO_OR_MORE_RACES_MALE",
+              "value": "two or more races male"
+            },
+            {
+              "name": "WHITE_FEMALE",
+              "value": "white female"
+            },
+            {
+              "name": "WHITE_MALE",
+              "value": "white male"
+            }
+          ]
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "addedColumnId": "606a6840-b289-4275-b7b2-1bc036b27a05",
+        "markAsMetadata": false
+      },
+      {
+        "action": "ADD",
+        "columnName": "GENDER",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "case when\n${AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE} = 1 or \n${ASIAN_FEMALE} = 1 or \n${BLACK_OR_AFRICAN_AMERICAN_FEMALE}= 1 or \n${HISPANIC_OR_LATINO_FEMALE} = 1 or \n${NATIVE_HAWAIIAN__OTHER_PI_FEMALE}= \u00271\u0027 or \n${NO_RNO_FEMALE} = 1 or\n${TWO_OR_MORE_RACES_FEMALE} = 1 or\n${WHITE_FEMALE} = 1\nthen \u0027F\u0027\n\nwhen \n${AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE} = 1 or \n${ASIAN_MALE} = 1 or \n${BLACK_OR_AFRICAN_AMERICAN_MALE} = 1 or \n${HISPANIC_OR_LATINO_MALE} = 1 or \n${NATIVE_HAWAIIAN__OTHER_PI_MALE} = \u00271\u0027 or \n${NO_RNO_MALE} = 1 or\n${TWO_OR_MORE_RACES_FEMALE} = 1 or\n${WHITE_MALE} = 1\nthen \u0027M\u0027\n\nelse \u0027U\u0027 end",
+          "alias": [
+            {
+              "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE",
+              "value": "american indian or alaska native female"
+            },
+            {
+              "name": "ASIAN_FEMALE",
+              "value": "asian female"
+            },
+            {
+              "name": "BLACK_OR_AFRICAN_AMERICAN_FEMALE",
+              "value": "black or african american female"
+            },
+            {
+              "name": "HISPANIC_OR_LATINO_FEMALE",
+              "value": "hispanic or latino female"
+            },
+            {
+              "name": "NATIVE_HAWAIIAN__OTHER_PI_FEMALE",
+              "value": "native hawaiian/ other pi female"
+            },
+            {
+              "name": "NO_RNO_FEMALE",
+              "value": "no rno female"
+            },
+            {
+              "name": "TWO_OR_MORE_RACES_FEMALE",
+              "value": "two or more races female"
+            },
+            {
+              "name": "WHITE_FEMALE",
+              "value": "white female"
+            },
+            {
+              "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE",
+              "value": "american indian or alaska native male"
+            },
+            {
+              "name": "ASIAN_MALE",
+              "value": "asian male"
+            },
+            {
+              "name": "BLACK_OR_AFRICAN_AMERICAN_MALE",
+              "value": "black or african american male"
+            },
+            {
+              "name": "HISPANIC_OR_LATINO_MALE",
+              "value": "hispanic or latino male"
+            },
+            {
+              "name": "NATIVE_HAWAIIAN__OTHER_PI_MALE",
+              "value": "native hawaiian/ other pi male"
+            },
+            {
+              "name": "NO_RNO_MALE",
+              "value": "no rno male"
+            },
+            {
+              "name": "WHITE_MALE",
+              "value": "white male"
+            }
+          ]
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "addedColumnId": "fb7d3d45-d712-4657-a699-cdc549d4e171",
+        "markAsMetadata": false
+      },
+      {
+        "action": "ADD",
+        "columnName": "DEPARTMENT",
+        "newDataType": {
+          "type": "STRING",
+          "length": 50,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "expression": {
+          "expressionStatement": "case when ${COLLECTION_AND_OPERATIONS} = 1 then \u0027Collection and Operations\u0027\nwhen ${PROCESSING_AND_EXPLOITATION} = 1 then \u0027Processing and Exploitation\u0027\nwhen ${ANALYSIS_AND_PRODUCTION} = 1 then \u0027Analysis and Production\u0027\nwhen ${RESEARCH_AND_TECHNOLOGY} = 1 then \u0027Research and Technology\u0027\nwhen ${ENTERPRISE_INFORMATION_TECHNOLOGY} = 1 then \u0027Enterprise Information Technology\u0027\nwhen ${ENTERPRISE_MANAGEMENT_AND_SUPPORT} = 1 then \u0027Enterprise Management and Support\u0027\nwhen ${MISSION_MANAGEMENT} = 1 then \u0027Mission Management\u0027\nelse \u0027UNKNOWN\u0027 end",
+          "alias": [
+            {
+              "name": "COLLECTION_AND_OPERATIONS",
+              "value": "collection and operations"
+            },
+            {
+              "name": "PROCESSING_AND_EXPLOITATION",
+              "value": "processing and exploitation"
+            },
+            {
+              "name": "ANALYSIS_AND_PRODUCTION",
+              "value": "analysis and production"
+            },
+            {
+              "name": "RESEARCH_AND_TECHNOLOGY",
+              "value": "research and technology"
+            },
+            {
+              "name": "ENTERPRISE_INFORMATION_TECHNOLOGY",
+              "value": "enterprise information technology"
+            },
+            {
+              "name": "ENTERPRISE_MANAGEMENT_AND_SUPPORT",
+              "value": "enterprise management and support"
+            },
+            {
+              "name": "MISSION_MANAGEMENT",
+              "value": "mission management"
+            }
+          ]
+        },
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "addedColumnId": "6bf16e25-1275-4609-a08a-eb96ae707e6a",
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "eeod_sample_data-u2y9",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "EEOD_SAMPLE_DATA",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "EEOD_SAMPLE_DATA",
+  "id": "eeod_sample_data-vtlt",
+  "description": ""
+}

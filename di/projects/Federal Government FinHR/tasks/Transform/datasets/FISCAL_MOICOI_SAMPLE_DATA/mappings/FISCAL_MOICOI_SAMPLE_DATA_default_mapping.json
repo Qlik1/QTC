@@ -1,0 +1,169 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "fiscal_moicoi_sample_data-u2za",
+    "name": "FISCAL_MOICOI_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage-eudb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "country name standard",
+      "expression": {
+        "expressionStatement": "${COUNTRY_NAME_STANDARD}",
+        "alias": [
+          {
+            "name": "COUNTRY_NAME_STANDARD",
+            "value": "COUNTRY_NAME_STANDARD"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "mission name",
+      "expression": {
+        "expressionStatement": "${MISSION_NAME}",
+        "alias": [
+          {
+            "name": "MISSION_NAME",
+            "value": "MISSION_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "program name",
+      "expression": {
+        "expressionStatement": "${PROGRAM_NAME}",
+        "alias": [
+          {
+            "name": "PROGRAM_NAME",
+            "value": "PROGRAM_NAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "actuals",
+      "expression": {
+        "expressionStatement": "${ACTUALS}",
+        "alias": [
+          {
+            "name": "ACTUALS",
+            "value": "ACTUALS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "enacted",
+      "expression": {
+        "expressionStatement": "${ENACTED}",
+        "alias": [
+          {
+            "name": "ENACTED",
+            "value": "ENACTED"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "requested",
+      "expression": {
+        "expressionStatement": "${REQUESTED}",
+        "alias": [
+          {
+            "name": "REQUESTED",
+            "value": "REQUESTED"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy4",
+      "expression": {
+        "expressionStatement": "${FY4}",
+        "alias": [
+          {
+            "name": "FY4",
+            "value": "FY4"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy5",
+      "expression": {
+        "expressionStatement": "${FY5}",
+        "alias": [
+          {
+            "name": "FY5",
+            "value": "FY5"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy6",
+      "expression": {
+        "expressionStatement": "${FY6}",
+        "alias": [
+          {
+            "name": "FY6",
+            "value": "FY6"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fy7",
+      "expression": {
+        "expressionStatement": "${FY7}",
+        "alias": [
+          {
+            "name": "FY7",
+            "value": "FY7"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "phone",
+      "expression": {
+        "expressionStatement": "${PHONE}",
+        "alias": [
+          {
+            "name": "PHONE",
+            "value": "PHONE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "date",
+      "expression": {
+        "expressionStatement": "${DATE}",
+        "alias": [
+          {
+            "name": "DATE",
+            "value": "DATE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "id",
+      "expression": {
+        "expressionStatement": "${ID}",
+        "alias": [
+          {
+            "name": "ID",
+            "value": "ID"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "fiscal_moicoi_sample_data_default_mapping-vtl5",
+  "name": "FISCAL_MOICOI_SAMPLE_DATA_default_mapping",
+  "description": ""
+}

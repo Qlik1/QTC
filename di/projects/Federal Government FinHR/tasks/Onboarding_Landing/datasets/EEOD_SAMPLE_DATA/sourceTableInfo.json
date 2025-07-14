@@ -1,0 +1,598 @@
+{
+  "id": "$replicate$dbo_eeod_sample_data",
+  "name": "dbo_EEOD_SAMPLE_DATA",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "EEOD_SAMPLE_DATA",
+    "dbSchema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+    "columns": [
+      {
+        "name": "Employee",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "employee",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-08",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-08",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-09",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-09",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-10",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-10",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-11",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-11",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-12",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-12",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-13",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-13",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-14",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-14",
+        "flags": "NONE"
+      },
+      {
+        "name": "GS/GG-15",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "gs/gg-15",
+        "flags": "NONE"
+      },
+      {
+        "name": "Senior Pay Levels",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "senior pay levels",
+        "flags": "NONE"
+      },
+      {
+        "name": "Hispanic or Latino Female",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "hispanic or latino female",
+        "flags": "NONE"
+      },
+      {
+        "name": "Hispanic or Latino Male",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "hispanic or latino male",
+        "flags": "NONE"
+      },
+      {
+        "name": "American Indian or Alaska native Female",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "american indian or alaska native female",
+        "flags": "NONE"
+      },
+      {
+        "name": "American Indian or Alaska native Male",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "american indian or alaska native male",
+        "flags": "NONE"
+      },
+      {
+        "name": "Asian Female",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "asian female",
+        "flags": "NONE"
+      },
+      {
+        "name": "Asian Male",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "asian male",
+        "flags": "NONE"
+      },
+      {
+        "name": "Black or African American Female",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "black or african american female",
+        "flags": "NONE"
+      },
+      {
+        "name": "Black or African American Male",
+        "ordinal": 18,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "black or african american male",
+        "flags": "NONE"
+      },
+      {
+        "name": "Native Hawaiian/ Other PI Female",
+        "ordinal": 19,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "native hawaiian/ other pi female",
+        "flags": "NONE"
+      },
+      {
+        "name": "Native Hawaiian/ Other PI Male",
+        "ordinal": 20,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "native hawaiian/ other pi male",
+        "flags": "NONE"
+      },
+      {
+        "name": "Two or More Races Female",
+        "ordinal": 21,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "two or more races female",
+        "flags": "NONE"
+      },
+      {
+        "name": "Two or More Races Male",
+        "ordinal": 22,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "two or more races male",
+        "flags": "NONE"
+      },
+      {
+        "name": "White Female",
+        "ordinal": 23,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "white female",
+        "flags": "NONE"
+      },
+      {
+        "name": "White Male",
+        "ordinal": 24,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "white male",
+        "flags": "NONE"
+      },
+      {
+        "name": "No RNO Female",
+        "ordinal": 25,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "no rno female",
+        "flags": "NONE"
+      },
+      {
+        "name": "No RNO Male",
+        "ordinal": 26,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "no rno male",
+        "flags": "NONE"
+      },
+      {
+        "name": "Managers and Supervisors",
+        "ordinal": 27,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "managers and supervisors",
+        "flags": "NONE"
+      },
+      {
+        "name": "Collection and Operations",
+        "ordinal": 28,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "collection and operations",
+        "flags": "NONE"
+      },
+      {
+        "name": "Processing and Exploitation",
+        "ordinal": 29,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "processing and exploitation",
+        "flags": "NONE"
+      },
+      {
+        "name": "Analysis and Production",
+        "ordinal": 30,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "analysis and production",
+        "flags": "NONE"
+      },
+      {
+        "name": "Research and Technology",
+        "ordinal": 31,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "research and technology",
+        "flags": "NONE"
+      },
+      {
+        "name": "Enterprise Information Technology",
+        "ordinal": 32,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "enterprise information technology",
+        "flags": "NONE"
+      },
+      {
+        "name": "Enterprise Management and Support",
+        "ordinal": 33,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "enterprise management and support",
+        "flags": "NONE"
+      },
+      {
+        "name": "Mission Management",
+        "ordinal": 34,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "mission management",
+        "flags": "NONE"
+      },
+      {
+        "name": "Time in Service",
+        "ordinal": 35,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "time in service",
+        "flags": "NONE"
+      },
+      {
+        "name": "Current Retire Eligible",
+        "ordinal": 36,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "current retire eligible",
+        "flags": "NONE"
+      },
+      {
+        "name": "Future Retire Eligible",
+        "ordinal": 37,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "future retire eligible",
+        "flags": "NONE"
+      },
+      {
+        "name": "PRISP",
+        "ordinal": 38,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "prisp",
+        "flags": "NONE"
+      },
+      {
+        "name": "Joint Duty Credit",
+        "ordinal": 39,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "joint duty credit",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

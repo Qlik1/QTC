@@ -1,0 +1,328 @@
+{
+  "id": "$replicate$dbo_hcdc_sample_data",
+  "name": "dbo_HCDC_SAMPLE_DATA",
+  "type": "LANDING",
+  "tableDef": {
+    "name": "HCDC_SAMPLE_DATA",
+    "dbSchema": "{{task.onboarding_landing-149a:null$_$dbo.schema}}",
+    "columns": [
+      {
+        "name": "Response Count",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "response count",
+        "flags": "NONE"
+      },
+      {
+        "name": "Program Name",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "program name",
+        "flags": "NONE"
+      },
+      {
+        "name": "Element_Agency_Service",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "element_agency_service",
+        "flags": "NONE"
+      },
+      {
+        "name": "Expenditure Center",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "expenditure center",
+        "flags": "NONE"
+      },
+      {
+        "name": "Budget Category",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 10,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "budget category",
+        "flags": "NONE"
+      },
+      {
+        "name": "Personnel Type",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "personnel type",
+        "flags": "NONE"
+      },
+      {
+        "name": "Employee Type",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "employee type",
+        "flags": "NONE"
+      },
+      {
+        "name": "Employee_ID_Number_no_SSNs",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "employee_id_number_no_ssns",
+        "flags": "NONE"
+      },
+      {
+        "name": "Grade/Rank",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "grade/rank",
+        "flags": "NONE"
+      },
+      {
+        "name": "Birth_Year_yyyy",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "birth_year_yyyy",
+        "flags": "NONE"
+      },
+      {
+        "name": "Total Years of Federal Service",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "total years of federal service",
+        "flags": "NONE"
+      },
+      {
+        "name": "Service_Computation_Date_mm_dd_yyyy",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "service_computation_date_mm_dd_yyyy",
+        "flags": "NONE"
+      },
+      {
+        "name": "Federal Retirement System",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "federal retirement system",
+        "flags": "NONE"
+      },
+      {
+        "name": "Retirement_Eligibility_Date_mm_dd_yyyy",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "retirement_eligibility_date_mm_dd_yyyy",
+        "flags": "NONE"
+      },
+      {
+        "name": "Year of Hire at Agency",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "year of hire at agency",
+        "flags": "NONE"
+      },
+      {
+        "name": "Work_Role_Occupation_Career_Service",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "work_role_occupation_career_service",
+        "flags": "NONE"
+      },
+      {
+        "name": "Reimbursable",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "reimbursable",
+        "flags": "NONE"
+      },
+      {
+        "name": "Home Agency",
+        "ordinal": 18,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "home agency",
+        "flags": "NONE"
+      },
+      {
+        "name": "Host Agency",
+        "ordinal": 19,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "host agency",
+        "flags": "NONE"
+      },
+      {
+        "name": "Comments",
+        "ordinal": 20,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 1,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "comments",
+        "flags": "NONE"
+      },
+      {
+        "name": "Element_Agency_or_Service",
+        "ordinal": 21,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": ""
+        },
+        "id": "element_agency_or_service",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  }
+}

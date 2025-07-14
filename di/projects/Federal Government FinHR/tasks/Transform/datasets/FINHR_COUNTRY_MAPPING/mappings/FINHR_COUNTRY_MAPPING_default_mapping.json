@@ -1,0 +1,37 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "finhr_country_mapping-m8pf",
+    "name": "FINHR_COUNTRY_MAPPING",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "registered_data_storage-m8pd"
+  },
+  "mappingFields": [
+    {
+      "columnId": "countryname",
+      "expression": {
+        "expressionStatement": "${COUNTRYNAME}",
+        "alias": [
+          {
+            "name": "COUNTRYNAME",
+            "value": "COUNTRYNAME"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "mapcountry",
+      "expression": {
+        "expressionStatement": "${MAPCOUNTRY}",
+        "alias": [
+          {
+            "name": "MAPCOUNTRY",
+            "value": "MAPCOUNTRY"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "finhr_country_mapping_default_mapping-m8pj",
+  "name": "FINHR_COUNTRY_MAPPING_default_mapping",
+  "description": ""
+}

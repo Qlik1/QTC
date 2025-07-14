@@ -1,0 +1,529 @@
+{
+  "sourceDataEntityKey": {
+    "datasetId": "eeod_sample_data-u2y9",
+    "name": "EEOD_SAMPLE_DATA",
+    "projectId": "{{ref(project.current.projectId)}}",
+    "taskId": "storage-eudb"
+  },
+  "mappingFields": [
+    {
+      "columnId": "employee",
+      "expression": {
+        "expressionStatement": "${EMPLOYEE}",
+        "alias": [
+          {
+            "name": "EMPLOYEE",
+            "value": "EMPLOYEE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-08",
+      "expression": {
+        "expressionStatement": "${GS_GG_08}",
+        "alias": [
+          {
+            "name": "GS_GG_08",
+            "value": "GS_GG_08"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-09",
+      "expression": {
+        "expressionStatement": "${GS_GG_09}",
+        "alias": [
+          {
+            "name": "GS_GG_09",
+            "value": "GS_GG_09"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-10",
+      "expression": {
+        "expressionStatement": "${GS_GG_10}",
+        "alias": [
+          {
+            "name": "GS_GG_10",
+            "value": "GS_GG_10"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-11",
+      "expression": {
+        "expressionStatement": "${GS_GG_11}",
+        "alias": [
+          {
+            "name": "GS_GG_11",
+            "value": "GS_GG_11"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-12",
+      "expression": {
+        "expressionStatement": "${GS_GG_12}",
+        "alias": [
+          {
+            "name": "GS_GG_12",
+            "value": "GS_GG_12"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-13",
+      "expression": {
+        "expressionStatement": "${GS_GG_13}",
+        "alias": [
+          {
+            "name": "GS_GG_13",
+            "value": "GS_GG_13"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-14",
+      "expression": {
+        "expressionStatement": "${GS_GG_14}",
+        "alias": [
+          {
+            "name": "GS_GG_14",
+            "value": "GS_GG_14"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "gs/gg-15",
+      "expression": {
+        "expressionStatement": "${GS_GG_15}",
+        "alias": [
+          {
+            "name": "GS_GG_15",
+            "value": "GS_GG_15"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "senior pay levels",
+      "expression": {
+        "expressionStatement": "${SENIOR_PAY_LEVELS}",
+        "alias": [
+          {
+            "name": "SENIOR_PAY_LEVELS",
+            "value": "SENIOR_PAY_LEVELS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "hispanic or latino female",
+      "expression": {
+        "expressionStatement": "${HISPANIC_OR_LATINO_FEMALE}",
+        "alias": [
+          {
+            "name": "HISPANIC_OR_LATINO_FEMALE",
+            "value": "HISPANIC_OR_LATINO_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "hispanic or latino male",
+      "expression": {
+        "expressionStatement": "${HISPANIC_OR_LATINO_MALE}",
+        "alias": [
+          {
+            "name": "HISPANIC_OR_LATINO_MALE",
+            "value": "HISPANIC_OR_LATINO_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "american indian or alaska native female",
+      "expression": {
+        "expressionStatement": "${AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE}",
+        "alias": [
+          {
+            "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE",
+            "value": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "american indian or alaska native male",
+      "expression": {
+        "expressionStatement": "${AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE}",
+        "alias": [
+          {
+            "name": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE",
+            "value": "AMERICAN_INDIAN_OR_ALASKA_NATIVE_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "asian female",
+      "expression": {
+        "expressionStatement": "${ASIAN_FEMALE}",
+        "alias": [
+          {
+            "name": "ASIAN_FEMALE",
+            "value": "ASIAN_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "asian male",
+      "expression": {
+        "expressionStatement": "${ASIAN_MALE}",
+        "alias": [
+          {
+            "name": "ASIAN_MALE",
+            "value": "ASIAN_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "black or african american female",
+      "expression": {
+        "expressionStatement": "${BLACK_OR_AFRICAN_AMERICAN_FEMALE}",
+        "alias": [
+          {
+            "name": "BLACK_OR_AFRICAN_AMERICAN_FEMALE",
+            "value": "BLACK_OR_AFRICAN_AMERICAN_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "black or african american male",
+      "expression": {
+        "expressionStatement": "${BLACK_OR_AFRICAN_AMERICAN_MALE}",
+        "alias": [
+          {
+            "name": "BLACK_OR_AFRICAN_AMERICAN_MALE",
+            "value": "BLACK_OR_AFRICAN_AMERICAN_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "native hawaiian/ other pi female",
+      "expression": {
+        "expressionStatement": "${NATIVE_HAWAIIAN__OTHER_PI_FEMALE}",
+        "alias": [
+          {
+            "name": "NATIVE_HAWAIIAN__OTHER_PI_FEMALE",
+            "value": "NATIVE_HAWAIIAN__OTHER_PI_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "native hawaiian/ other pi male",
+      "expression": {
+        "expressionStatement": "${NATIVE_HAWAIIAN__OTHER_PI_MALE}",
+        "alias": [
+          {
+            "name": "NATIVE_HAWAIIAN__OTHER_PI_MALE",
+            "value": "NATIVE_HAWAIIAN__OTHER_PI_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "two or more races female",
+      "expression": {
+        "expressionStatement": "${TWO_OR_MORE_RACES_FEMALE}",
+        "alias": [
+          {
+            "name": "TWO_OR_MORE_RACES_FEMALE",
+            "value": "TWO_OR_MORE_RACES_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "two or more races male",
+      "expression": {
+        "expressionStatement": "${TWO_OR_MORE_RACES_MALE}",
+        "alias": [
+          {
+            "name": "TWO_OR_MORE_RACES_MALE",
+            "value": "TWO_OR_MORE_RACES_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "white female",
+      "expression": {
+        "expressionStatement": "${WHITE_FEMALE}",
+        "alias": [
+          {
+            "name": "WHITE_FEMALE",
+            "value": "WHITE_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "white male",
+      "expression": {
+        "expressionStatement": "${WHITE_MALE}",
+        "alias": [
+          {
+            "name": "WHITE_MALE",
+            "value": "WHITE_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "no rno female",
+      "expression": {
+        "expressionStatement": "${NO_RNO_FEMALE}",
+        "alias": [
+          {
+            "name": "NO_RNO_FEMALE",
+            "value": "NO_RNO_FEMALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "no rno male",
+      "expression": {
+        "expressionStatement": "${NO_RNO_MALE}",
+        "alias": [
+          {
+            "name": "NO_RNO_MALE",
+            "value": "NO_RNO_MALE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "managers and supervisors",
+      "expression": {
+        "expressionStatement": "${MANAGERS_AND_SUPERVISORS}",
+        "alias": [
+          {
+            "name": "MANAGERS_AND_SUPERVISORS",
+            "value": "MANAGERS_AND_SUPERVISORS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "collection and operations",
+      "expression": {
+        "expressionStatement": "${COLLECTION_AND_OPERATIONS}",
+        "alias": [
+          {
+            "name": "COLLECTION_AND_OPERATIONS",
+            "value": "COLLECTION_AND_OPERATIONS"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "processing and exploitation",
+      "expression": {
+        "expressionStatement": "${PROCESSING_AND_EXPLOITATION}",
+        "alias": [
+          {
+            "name": "PROCESSING_AND_EXPLOITATION",
+            "value": "PROCESSING_AND_EXPLOITATION"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "analysis and production",
+      "expression": {
+        "expressionStatement": "${ANALYSIS_AND_PRODUCTION}",
+        "alias": [
+          {
+            "name": "ANALYSIS_AND_PRODUCTION",
+            "value": "ANALYSIS_AND_PRODUCTION"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "research and technology",
+      "expression": {
+        "expressionStatement": "${RESEARCH_AND_TECHNOLOGY}",
+        "alias": [
+          {
+            "name": "RESEARCH_AND_TECHNOLOGY",
+            "value": "RESEARCH_AND_TECHNOLOGY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "enterprise information technology",
+      "expression": {
+        "expressionStatement": "${ENTERPRISE_INFORMATION_TECHNOLOGY}",
+        "alias": [
+          {
+            "name": "ENTERPRISE_INFORMATION_TECHNOLOGY",
+            "value": "ENTERPRISE_INFORMATION_TECHNOLOGY"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "enterprise management and support",
+      "expression": {
+        "expressionStatement": "${ENTERPRISE_MANAGEMENT_AND_SUPPORT}",
+        "alias": [
+          {
+            "name": "ENTERPRISE_MANAGEMENT_AND_SUPPORT",
+            "value": "ENTERPRISE_MANAGEMENT_AND_SUPPORT"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "mission management",
+      "expression": {
+        "expressionStatement": "${MISSION_MANAGEMENT}",
+        "alias": [
+          {
+            "name": "MISSION_MANAGEMENT",
+            "value": "MISSION_MANAGEMENT"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "time in service",
+      "expression": {
+        "expressionStatement": "${TIME_IN_SERVICE}",
+        "alias": [
+          {
+            "name": "TIME_IN_SERVICE",
+            "value": "TIME_IN_SERVICE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "current retire eligible",
+      "expression": {
+        "expressionStatement": "${CURRENT_RETIRE_ELIGIBLE}",
+        "alias": [
+          {
+            "name": "CURRENT_RETIRE_ELIGIBLE",
+            "value": "CURRENT_RETIRE_ELIGIBLE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "future retire eligible",
+      "expression": {
+        "expressionStatement": "${FUTURE_RETIRE_ELIGIBLE}",
+        "alias": [
+          {
+            "name": "FUTURE_RETIRE_ELIGIBLE",
+            "value": "FUTURE_RETIRE_ELIGIBLE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "prisp",
+      "expression": {
+        "expressionStatement": "${PRISP}",
+        "alias": [
+          {
+            "name": "PRISP",
+            "value": "PRISP"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "joint duty credit",
+      "expression": {
+        "expressionStatement": "${JOINT_DUTY_CREDIT}",
+        "alias": [
+          {
+            "name": "JOINT_DUTY_CREDIT",
+            "value": "JOINT_DUTY_CREDIT"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "cf088447-a794-4993-bdeb-9dc2d2e4cc05",
+      "expression": {
+        "expressionStatement": "${RANK}",
+        "alias": [
+          {
+            "name": "RANK",
+            "value": "RANK"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "606a6840-b289-4275-b7b2-1bc036b27a05",
+      "expression": {
+        "expressionStatement": "${RACE}",
+        "alias": [
+          {
+            "name": "RACE",
+            "value": "RACE"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "fb7d3d45-d712-4657-a699-cdc549d4e171",
+      "expression": {
+        "expressionStatement": "${GENDER}",
+        "alias": [
+          {
+            "name": "GENDER",
+            "value": "GENDER"
+          }
+        ]
+      }
+    },
+    {
+      "columnId": "6bf16e25-1275-4609-a08a-eb96ae707e6a",
+      "expression": {
+        "expressionStatement": "${DEPARTMENT}",
+        "alias": [
+          {
+            "name": "DEPARTMENT",
+            "value": "DEPARTMENT"
+          }
+        ]
+      }
+    }
+  ],
+  "id": "eeod_sample_data_default_mapping-eudy",
+  "name": "EEOD_SAMPLE_DATA_default_mapping",
+  "description": ""
+}

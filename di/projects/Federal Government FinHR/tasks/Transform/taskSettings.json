@@ -1,0 +1,37 @@
+{
+  "artifactsSettings": {
+    "liveViewsEnabled": false,
+    "historyEnabled": true,
+    "materialized": false,
+    "changeTablesEnabled": true,
+    "currentTableSuffix": "__current",
+    "reloadType": "COMPARE_AND_APPLY_WITH_DELETED_ROWS",
+    "artifactsPrefix": ""
+  },
+  "fullLoadOnly": false,
+  "artifactsLocation": {
+    "internalSchema": "{{task.transform-u2zw.internalSchema}}",
+    "taskSchema": "{{task.transform-u2zw.taskSchema}}",
+    "databaseName": "{{task.transform-u2zw.databaseName}}"
+  },
+  "taskRuntime": {
+    "tableUpdateConcurrency": 10,
+    "warehouseSelection": {
+      "warehouseName": "{{task.transform-u2zw.warehouseName}}"
+    }
+  },
+  "catalogIntegration": {
+    "publishDatasets": true
+  },
+  "tableTypeSettings": {
+    "tableType": "REGULAR",
+    "icebergSettings": {
+      "snowflakeExternalVolume": "",
+      "folderLocationType": "DATA_ASSET_NAME",
+      "specificFolder": "",
+      "enableOpenCatalogSync": false,
+      "snowflakeOpenCatalog": ""
+    }
+  },
+  "viewType": "DEFAULT"
+}

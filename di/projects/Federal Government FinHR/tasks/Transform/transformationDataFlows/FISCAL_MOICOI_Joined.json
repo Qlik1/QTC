@@ -1,0 +1,505 @@
+{
+  "name": "FISCAL_MOICOI_Joined",
+  "description": "",
+  "context": {
+    "projectId": "{{ref(project.current.projectId)}}",
+    "dataAppId": "transform-u2zw"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "type": "source",
+        "id": "f490534f-fc43-4ca8-bdca-fb3fb70cfdee",
+        "label": "FISCAL_MOICOI_SAMPLE_DATA",
+        "graphical": {
+          "position": {
+            "x": -40,
+            "y": -40
+          },
+          "icon": "dataset-icon"
+        },
+        "handles": {
+          "incoming": [],
+          "outgoing": [
+            {
+              "id": "d6efbba6-cc08-4e89-b217-ce1479297240",
+              "type": "DEFAULT"
+            }
+          ]
+        },
+        "component": {
+          "type": "qcdiDataEntitySource",
+          "label": "Input dataset",
+          "properties": {
+            "dataEntity": {
+              "projectId": "{{ref(project.current.projectId)}}",
+              "dataAppId": "storage-eudb",
+              "entityId": "fiscal_moicoi_sample_data-u2za"
+            },
+            "configuration": {
+              "name": "FISCAL_MOICOI_SAMPLE_DATA"
+            }
+          }
+        }
+      },
+      {
+        "type": "target",
+        "id": "9e663ead-9c57-45d5-9b4b-4f93ee8eb895",
+        "label": "FISCAL_MOICOI_Joined",
+        "graphical": {
+          "position": {
+            "x": 880,
+            "y": -40
+          },
+          "icon": "dataset-icon"
+        },
+        "handles": {
+          "incoming": [
+            {
+              "id": "a5c783eb-baff-48d6-adc5-54fef9e14e62",
+              "type": "DEFAULT"
+            }
+          ],
+          "outgoing": []
+        },
+        "component": {
+          "type": "qcdiDataEntityTarget",
+          "label": "Output dataset",
+          "properties": {
+            "configuration": {
+              "name": "FISCAL_MOICOI_Joined",
+              "settings": {
+                "materialized": "INHERIT",
+                "hasHistory": "INHERIT",
+                "incremental": false
+              },
+              "overridenColumnsConfiguration": [
+                {
+                  "name": "COUNTRY_NAME_STANDARD",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "MISSION_NAME",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "PROGRAM_NAME",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "ACTUALS",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "ENACTED",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "REQUESTED",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "LEFT_FY4",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "LEFT_FY5",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "LEFT_FY6",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "LEFT_FY7",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "PHONE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "DATE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "ID",
+                  "nullable": false,
+                  "primaryKeyOrdinal": 1
+                },
+                {
+                  "name": "PROGRAM_CODE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "VALUE_TYPE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "LOE_CODE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "AIM_PROGRAM_NAME",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "SUBPROJECT_CODE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "RIC_CODE",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "FY1",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "FY2",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "FY3",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "RIGHT_FY4",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "RIGHT_FY5",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "RIGHT_FY6",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "RIGHT_FY7",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "AIM_ACTIVITY_DESCRIPTION",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "SCOPE_OF_IMPACT",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "IC_PROCESS_FOCUS",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "TRL_CATEGORY",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "AIM_CONTRIBUTION",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                },
+                {
+                  "name": "POC_INFORMATION",
+                  "nullable": true,
+                  "primaryKeyOrdinal": 0
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "type": "processor",
+        "id": "8ca8b027-bb38-42d8-b7b5-8d7f7f9c3af1",
+        "label": "Join 1",
+        "graphical": {
+          "position": {
+            "x": 320,
+            "y": -40
+          },
+          "icon": "union-processor"
+        },
+        "handles": {
+          "incoming": [
+            {
+              "id": "f8122a5d-ffb7-4d59-8042-0a0f4088af69",
+              "type": "DEFAULT"
+            },
+            {
+              "id": "bb54b654-4b7d-4452-9ae4-6b15878fe181",
+              "type": "LOOKUP"
+            }
+          ],
+          "outgoing": [
+            {
+              "id": "3012cc02-426e-4daa-96e9-5482d782fe6f",
+              "type": "DEFAULT"
+            }
+          ]
+        },
+        "component": {
+          "type": "join",
+          "label": "Join",
+          "properties": {
+            "tckType": "cHJvY2Vzc2luZy1iZWFtI1Byb2Nlc3NpbmcjSm9pbjI",
+            "configuration": {
+              "joinFunction": "LEFT_OUTER_JOIN",
+              "conditions": [
+                {
+                  "leftKey": "ID",
+                  "rightKey": "ID",
+                  "keepBothKeysInOutput": false,
+                  "$leftKey_name": "ID",
+                  "$rightKey_name": "ID"
+                }
+              ],
+              "$state": "CONFIGURED"
+            }
+          }
+        }
+      },
+      {
+        "type": "source",
+        "id": "0094d034-3551-483d-919b-a7ba0a31572d",
+        "label": "FISCAL_AIM_SAMPLE_DATA",
+        "graphical": {
+          "position": {
+            "x": -40,
+            "y": 80
+          },
+          "icon": "dataset-icon"
+        },
+        "handles": {
+          "incoming": [],
+          "outgoing": [
+            {
+              "id": "fef7ea6a-2c84-45f2-86cd-acd9df5951e9",
+              "type": "DEFAULT"
+            }
+          ]
+        },
+        "component": {
+          "type": "qcdiDataEntitySource",
+          "label": "Input dataset",
+          "properties": {
+            "dataEntity": {
+              "projectId": "{{ref(project.current.projectId)}}",
+              "dataAppId": "storage-eudb",
+              "entityId": "fiscal_aim_sample_data-u2y-"
+            },
+            "configuration": {
+              "name": "FISCAL_AIM_SAMPLE_DATA"
+            }
+          }
+        }
+      },
+      {
+        "type": "processor",
+        "id": "7d50095f-2887-4686-9ea1-385fd10f9627",
+        "label": "Select columns 1",
+        "graphical": {
+          "position": {
+            "x": 560,
+            "y": -40
+          },
+          "icon": "field-selector-processor"
+        },
+        "handles": {
+          "incoming": [
+            {
+              "id": "c8ffd587-2092-4c94-bc25-de508a457532",
+              "type": "DEFAULT"
+            }
+          ],
+          "outgoing": [
+            {
+              "id": "122118bc-ba38-4f30-9f37-93de37a2a3aa",
+              "type": "DEFAULT"
+            }
+          ]
+        },
+        "component": {
+          "type": "field-selector",
+          "label": "Select columns",
+          "properties": {
+            "tckType": "cHJvY2Vzc2luZy1iZWFtI1Byb2Nlc3NpbmcjRmllbGRTZWxlY3Rvcg",
+            "configuration": {
+              "selectors": [
+                {
+                  "path": "COUNTRY_NAME_STANDARD",
+                  "field": "COUNTRY_NAME_STANDARD",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "MISSION_NAME",
+                  "field": "MISSION_NAME",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "PROGRAM_NAME",
+                  "field": "PROGRAM_NAME",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "ACTUALS",
+                  "field": "ACTUALS",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "ENACTED",
+                  "field": "ENACTED",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "REQUESTED",
+                  "field": "REQUESTED",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "LEFT_FY4",
+                  "field": "LEFT_FY4",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "LEFT_FY5",
+                  "field": "LEFT_FY5",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "LEFT_FY6",
+                  "field": "LEFT_FY6",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "LEFT_FY7",
+                  "field": "LEFT_FY7",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "PHONE",
+                  "field": "PHONE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "DATE",
+                  "field": "DATE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "ID",
+                  "field": "ID",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "PROGRAM_CODE",
+                  "field": "PROGRAM_CODE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "VALUE_TYPE",
+                  "field": "VALUE_TYPE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "LOE_CODE",
+                  "field": "LOE_CODE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "AIM_PROGRAM_NAME",
+                  "field": "AIM_PROGRAM_NAME",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "SUBPROJECT_CODE",
+                  "field": "SUBPROJECT_CODE",
+                  "output": "",
+                  "selected": true
+                },
+                {
+                  "path": "RIC_CODE",
+                  "field": "RIC_CODE",
+                  "output": "",
+                  "selected": true
+                }
+              ],
+              "distinct": false,
+              "$state": "CONFIGURED"
+            }
+          }
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "reactflow__edge-f490534f-fc43-4ca8-bdca-fb3fb70cfdeed6efbba6-cc08-4e89-b217-ce1479297240-8ca8b027-bb38-42d8-b7b5-8d7f7f9c3af1f8122a5d-ffb7-4d59-8042-0a0f4088af69",
+        "sourceHandle": "d6efbba6-cc08-4e89-b217-ce1479297240",
+        "targetHandle": "f8122a5d-ffb7-4d59-8042-0a0f4088af69"
+      },
+      {
+        "id": "8c39aa79-9c05-4ef5-aa6c-c6da9b1940ec",
+        "sourceHandle": "3012cc02-426e-4daa-96e9-5482d782fe6f",
+        "targetHandle": "c8ffd587-2092-4c94-bc25-de508a457532"
+      },
+      {
+        "id": "reactflow__edge-0094d034-3551-483d-919b-a7ba0a31572dfef7ea6a-2c84-45f2-86cd-acd9df5951e9-8ca8b027-bb38-42d8-b7b5-8d7f7f9c3af1bb54b654-4b7d-4452-9ae4-6b15878fe181",
+        "sourceHandle": "fef7ea6a-2c84-45f2-86cd-acd9df5951e9",
+        "targetHandle": "bb54b654-4b7d-4452-9ae4-6b15878fe181"
+      },
+      {
+        "id": "3920b162-71ce-44f5-a10f-6fe473a1b9bf",
+        "sourceHandle": "122118bc-ba38-4f30-9f37-93de37a2a3aa",
+        "targetHandle": "a5c783eb-baff-48d6-adc5-54fef9e14e62"
+      }
+    ]
+  },
+  "modelVersion": "1.0.0"
+}

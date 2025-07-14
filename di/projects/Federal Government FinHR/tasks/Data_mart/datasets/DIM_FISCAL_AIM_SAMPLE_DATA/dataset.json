@@ -1,0 +1,667 @@
+{
+  "id": "dim_fiscal_aim_sample_data-z4mz",
+  "name": "DIM_FISCAL_AIM_SAMPLE_DATA",
+  "type": "DIMENSION",
+  "inputDatasets": [
+    {
+      "datasetId": "fiscal_aim_sample_data-oxpl",
+      "name": "FISCAL_AIM_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "transform-u2zw"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "ON",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "ON",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "DIM_FISCAL_AIM_SAMPLE_DATA",
+    "columns": [
+      {
+        "name": "PROGRAM_CODE",
+        "ordinal": 1,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "program code",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "VALUE_TYPE",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "value type",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "LOE_CODE",
+        "ordinal": 3,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "INT8",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "BIGINT"
+        },
+        "id": "loe code",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "AIM_PROGRAM_NAME",
+        "ordinal": 4,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "aim program name",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "SUBPROJECT_CODE",
+        "ordinal": 5,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "subproject code",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "RIC_CODE",
+        "ordinal": 6,
+        "nullable": true,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 4,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(4)"
+        },
+        "id": "ric code",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY1",
+        "ordinal": 7,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy1",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY2",
+        "ordinal": 8,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy2",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY3",
+        "ordinal": 9,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy3",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY4",
+        "ordinal": 10,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy4",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY5",
+        "ordinal": 11,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy5",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY6",
+        "ordinal": 12,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy6",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "FY7",
+        "ordinal": 13,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "REAL4",
+          "length": 0,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "FLOAT4"
+        },
+        "id": "fy7",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "AIM_ACTIVITY_DESCRIPTION",
+        "ordinal": 14,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 256,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(256)"
+        },
+        "id": "aim activity description",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "SCOPE_OF_IMPACT",
+        "ordinal": 15,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 32,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(32)"
+        },
+        "id": "scope of impact",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "IC_PROCESS_FOCUS",
+        "ordinal": 16,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "ic process focus",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "TRL_CATEGORY",
+        "ordinal": 17,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "trl category",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "AIM_CONTRIBUTION",
+        "ordinal": 18,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 8,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(8)"
+        },
+        "id": "aim contribution",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "POC_INFORMATION",
+        "ordinal": 19,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "poc information",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      },
+      {
+        "name": "ID",
+        "ordinal": 20,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 6,
+          "precision": 0,
+          "scale": 0,
+          "originalTypeFull": "VARCHAR(6)"
+        },
+        "id": "id",
+        "flags": "NONE",
+        "properties": {
+          "documentMetadata": false
+        }
+      }
+    ],
+    "entityId": "",
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "dimensionDatasetSettings": {
+    "type": "TYPE2",
+    "rootDataEntityId": {
+      "type": "NONE",
+      "entityId": "fiscal_aim_sample_data-oxpl",
+      "name": "FISCAL_AIM_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "dataAppId": "transform-u2zw"
+    },
+    "mapping": {
+      "columns": [
+        {
+          "columnName": "PROGRAM_CODE",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${PROGRAM_CODE}",
+            "alias": [
+              {
+                "name": "PROGRAM_CODE",
+                "value": "PROGRAM_CODE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "VALUE_TYPE",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${VALUE_TYPE}",
+            "alias": [
+              {
+                "name": "VALUE_TYPE",
+                "value": "VALUE_TYPE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "LOE_CODE",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${LOE_CODE}",
+            "alias": [
+              {
+                "name": "LOE_CODE",
+                "value": "LOE_CODE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "AIM_PROGRAM_NAME",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${AIM_PROGRAM_NAME}",
+            "alias": [
+              {
+                "name": "AIM_PROGRAM_NAME",
+                "value": "AIM_PROGRAM_NAME"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "SUBPROJECT_CODE",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${SUBPROJECT_CODE}",
+            "alias": [
+              {
+                "name": "SUBPROJECT_CODE",
+                "value": "SUBPROJECT_CODE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "RIC_CODE",
+          "type": "ROOT_PK",
+          "expression": {
+            "expressionStatement": "${RIC_CODE}",
+            "alias": [
+              {
+                "name": "RIC_CODE",
+                "value": "RIC_CODE"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY1",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY1}",
+            "alias": [
+              {
+                "name": "FY1",
+                "value": "FY1"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY2",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY2}",
+            "alias": [
+              {
+                "name": "FY2",
+                "value": "FY2"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY3",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY3}",
+            "alias": [
+              {
+                "name": "FY3",
+                "value": "FY3"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY4",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY4}",
+            "alias": [
+              {
+                "name": "FY4",
+                "value": "FY4"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY5",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY5}",
+            "alias": [
+              {
+                "name": "FY5",
+                "value": "FY5"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY6",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY6}",
+            "alias": [
+              {
+                "name": "FY6",
+                "value": "FY6"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "FY7",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${FY7}",
+            "alias": [
+              {
+                "name": "FY7",
+                "value": "FY7"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "AIM_ACTIVITY_DESCRIPTION",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${AIM_ACTIVITY_DESCRIPTION}",
+            "alias": [
+              {
+                "name": "AIM_ACTIVITY_DESCRIPTION",
+                "value": "AIM_ACTIVITY_DESCRIPTION"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "SCOPE_OF_IMPACT",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${SCOPE_OF_IMPACT}",
+            "alias": [
+              {
+                "name": "SCOPE_OF_IMPACT",
+                "value": "SCOPE_OF_IMPACT"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "IC_PROCESS_FOCUS",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${IC_PROCESS_FOCUS}",
+            "alias": [
+              {
+                "name": "IC_PROCESS_FOCUS",
+                "value": "IC_PROCESS_FOCUS"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "TRL_CATEGORY",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${TRL_CATEGORY}",
+            "alias": [
+              {
+                "name": "TRL_CATEGORY",
+                "value": "TRL_CATEGORY"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "AIM_CONTRIBUTION",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${AIM_CONTRIBUTION}",
+            "alias": [
+              {
+                "name": "AIM_CONTRIBUTION",
+                "value": "AIM_CONTRIBUTION"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "POC_INFORMATION",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${POC_INFORMATION}",
+            "alias": [
+              {
+                "name": "POC_INFORMATION",
+                "value": "POC_INFORMATION"
+              }
+            ]
+          }
+        },
+        {
+          "columnName": "ID",
+          "type": "NONE",
+          "expression": {
+            "expressionStatement": "${ID}",
+            "alias": [
+              {
+                "name": "ID",
+                "value": "ID"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "fullyType2Sources": false,
+    "subtype": "MODEL_BASED"
+  },
+  "virtualDataset": false,
+  "description": ""
+}

@@ -1,0 +1,74 @@
+{
+  "id": "fiscal_moicoi_sql-jcgu",
+  "name": "FISCAL_MOICOI_SQL",
+  "type": "CUSTOM",
+  "inputDatasets": [
+    {
+      "datasetId": "fiscal_moicoi_sample_data-u2za",
+      "name": "FISCAL_MOICOI_SAMPLE_DATA",
+      "projectId": "{{ref(project.current.projectId)}}",
+      "taskId": "storage-eudb"
+    }
+  ],
+  "datasetAttributes": {
+    "materialized": "INHERIT",
+    "hasHistory": "INHERIT",
+    "hasLiveViews": "INHERIT",
+    "hasChanges": "INHERIT",
+    "hasStandardViewsWithHeaders": "INHERIT",
+    "watermarkIncrementalSettings": "INHERIT"
+  },
+  "tableDef": {
+    "name": "FISCAL_MOICOI_SQL",
+    "columns": [
+      {
+        "name": "MISSION_NAME",
+        "ordinal": 1,
+        "nullable": false,
+        "primaryKeyOrdinal": 1,
+        "datatype": {
+          "type": "STRING",
+          "length": 64,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(64)"
+        },
+        "id": "mission_name",
+        "flags": "NONE"
+      },
+      {
+        "name": "ACTUALS",
+        "ordinal": 2,
+        "nullable": true,
+        "primaryKeyOrdinal": 0,
+        "datatype": {
+          "type": "STRING",
+          "length": 16,
+          "precision": 0,
+          "scale": 0,
+          "originalType": "VARCHAR",
+          "originalTypeFull": "VARCHAR(16)"
+        },
+        "id": "actuals",
+        "flags": "NONE"
+      }
+    ],
+    "secureQri": "",
+    "fullLoadOnly": false
+  },
+  "customDatasetSettings": {
+    "customSql": {
+      "expressionStatement": "\nSELECT f1.\u0022MISSION_NAME\u0022, f1.\u0022ACTUALS\u0022\nFROM ${FISCAL_MOICOI_SAMPLE_DATA} f1\nORDER BY f1.\u0022ACTUALS\u0022 DESC\nNULLS LAST\nLIMIT 10;\n",
+      "alias": [
+        {
+          "name": "FISCAL_MOICOI_SAMPLE_DATA",
+          "value": "{{ref(project.current.projectId)}}$_$storage-eudb$_$fiscal_moicoi_sample_data-u2za"
+        }
+      ]
+    },
+    "incremental": false
+  },
+  "virtualDataset": false,
+  "description": ""
+}

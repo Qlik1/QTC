@@ -1,0 +1,94 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "KEEP",
+        "columnName": "RIC Code",
+        "newColumnName": "RIC_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "AIM Program Name",
+        "newColumnName": "AIM_PROGRAM_NAME",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "Subproject Code",
+        "newColumnName": "SUBPROJECT_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "LOE Code",
+        "newColumnName": "LOE_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "Value Type",
+        "newColumnName": "VALUE_TYPE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "Program Code",
+        "newColumnName": "PROGRAM_CODE",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "POC Information",
+        "newColumnName": "POC_INFORMATION",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": true,
+        "markAsMetadata": false
+      },
+      {
+        "action": "KEEP",
+        "columnName": "ID",
+        "newColumnName": "ID",
+        "primaryKeyOrdinal": 0,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "fiscal_aim_sample_data",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "FISCAL_AIM_SAMPLE_DATA",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "FISCAL_AIM_SAMPLE_DATA",
+  "id": "fiscal_aim_sample_data-yvi6",
+  "description": ""
+}

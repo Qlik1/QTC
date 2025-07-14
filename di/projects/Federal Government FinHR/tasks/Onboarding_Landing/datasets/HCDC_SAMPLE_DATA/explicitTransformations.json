@@ -1,0 +1,31 @@
+{
+  "transformedTableLocal": {
+    "transformedColumnsLocal": [
+      {
+        "action": "KEEP",
+        "columnName": "Response Count",
+        "newColumnName": "RESPONSE_COUNT",
+        "primaryKeyOrdinal": 1,
+        "ordinal": 0,
+        "nullable": false,
+        "markAsMetadata": false
+      }
+    ]
+  },
+  "datasetId": "hcdc_sample_data",
+  "actionType": "LOCAL_MANIPULATION",
+  "scopeType": "COLUMN",
+  "scope": {
+    "whereOwnerName": "%",
+    "whereTableName": "HCDC_SAMPLE_DATA",
+    "whereColumnName": "%",
+    "whereDatatype": "UNSPECIFIED",
+    "whereColumnKeyAttribute": "ANY",
+    "whereColumnNullability": "ANY"
+  },
+  "enabled": true,
+  "internalRule": false,
+  "name": "HCDC_SAMPLE_DATA",
+  "id": "hcdc_sample_data-qusy",
+  "description": ""
+}
